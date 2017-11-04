@@ -1,0 +1,1 @@
+(gradle-mode :repo "seblemaguer/emacs-gradle-mode" :fetcher github)

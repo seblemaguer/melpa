@@ -1,0 +1,1 @@
+(sauron-circe :repo "seblemaguer/sauron-circe" :fetcher github)

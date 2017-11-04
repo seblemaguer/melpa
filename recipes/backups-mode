@@ -1,0 +1,1 @@
+(backups-mode :repo "chadbraunduin/backups-mode" :fetcher github)

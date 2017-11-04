@@ -1,0 +1,1 @@
+(ibuffer-circe :repo "seblemaguer/ibuffer-circe" :fetcher github)

@@ -1,0 +1,1 @@
+(sauron-mu4e :repo "seblemaguer/sauron-mu4e" :fetcher github)
