@@ -1,1 +1,0 @@
-(helm-xref :repo "brotzeitmacher/helm-xref" :fetcher github)

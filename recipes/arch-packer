@@ -1,1 +1,0 @@
-(arch-packer :repo "brotzeitmacher/arch-packer" :fetcher github)

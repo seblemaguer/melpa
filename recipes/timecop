@@ -1,4 +1,0 @@
-(timecop
- :repo "zonuexe/emacs-datetime"
- :fetcher github
- :files ("timecop.el"))
