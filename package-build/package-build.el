@@ -1190,7 +1190,12 @@ and a cl struct in Emacs HEAD.  This wrapper normalises the results."
   (let ((desc (package-buffer-info))
         (keywords (lm-keywords-list)))
     (if (fboundp 'package-desc-create)
+
         (let ((extras (package-desc-extras desc)))
+          ;; fix issue with :maintainer not being a list
+          (let ((maintainer (cdr (assoc :maintainer extras))))
+            (setf (cdr (assoc :maintainer extras))
+                  (list maintainer)))
           (when (and keywords (not (assq :keywords extras)))
             ;; Add keywords to package properties, if not already present
             (push (cons :keywords keywords) extras))
